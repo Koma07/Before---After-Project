@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+
+}
+
+
+.main-container{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+    
+}
+
+.puta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    width: 40%;
+    
+    
+    
+
+}
+
+
+.input{
+
+    color: white;
+    border: none;
+    border-top: 3px solid rgb(30, 114, 30);
+    background-color: rgb(44, 44, 44);
+    resize: none;
+    min-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.textarea{
+    min-height: 150px;
+}
+
+.send{
+    color: white;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 3px solid rgb(30, 114, 30);
+    background-color: rgb(44, 44, 44);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.send:focus{
+    background: rgb(30, 114, 30);
+}
+
+.input::placeholder{
+    color:white;
+    font-family: sans-serif;
+}
+
+.input:focus{
+    background: linear-gradient(to top, rgb(117, 117, 117), transparent);
+    color: white;
+}
+
+
+.flex-image{
+    padding: 50px;
+    height: 170px;
+}
+
+
+
+
+
+

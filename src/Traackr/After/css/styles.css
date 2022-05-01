@@ -1,0 +1,173 @@
+:root {
+  --background-color: rgb(37, 23, 98);
+  --title-color: rgb(248, 206, 190);
+  --font-color: rgb(198, 195, 214);
+  --font-color-2: rgb(249, 249, 251);
+  --btn-color: rgb(237, 63, 55);
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 12fr 1fr;
+  height: 86vh;
+}
+
+header div {
+  padding: 10px;
+}
+
+nav {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--title-color);
+  font-size: 3rem;
+  margin: 20px;
+  width: 100%;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1.2fr;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+ul div:first-child {
+  display: flex;
+}
+
+ul div:nth-child(2) {
+  justify-content: right;
+}
+
+.ul-item-container {
+  display: flex;
+  width: 90%;
+  justify-content: right;
+}
+
+.ul-item {
+  display: flex;
+  align-items: center;
+  color: var(--font-color-2);
+  white-space: nowrap;
+}
+
+.ul-login-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--font-color-2);
+}
+
+.ul-login-item {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  border-radius: 32px;
+  color: white;
+}
+
+.main-title-container {
+  width: 90%;
+  margin: auto 0;
+}
+.main-title-container p {
+  color: var(--font-color);
+  margin: 40px 20px 20px 20px;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.main-btn-container {
+  width: 45%;
+  margin-bottom: -15px;
+}
+
+.main-btn-container button {
+  color: var(--font-color-2);
+  background-color: var(--btn-color);
+  cursor: pointer;
+  border: none;
+  width: 230px;
+  padding: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  margin: 40px 20px;
+}
+
+.main-img-container {
+  display: grid;
+  align-items: end;
+}
+
+.main-img-container button {
+  color: var(--font-color-2);
+  background-color: var(--btn-color);
+  position: sticky;
+  left: 90%;
+  bottom: 50%;
+  width: 230px;
+  padding: 10px;
+  transform: rotate(90deg);
+  border: none;
+  border-radius: 0 0 12px 12px;
+}
+
+@media (max-width: 1100px) {
+  body {
+    overflow: scroll;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: minmax(300px, 4fr);
+    height: 86vh;
+    justify-items: center;
+  }
+  .main-btn-container button {
+    margin: 15px 20px;
+  }
+  .main-img-container img {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1180px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ul-item-container,
+  .ul-login-container {
+    display: none;
+  }
+
+  .menu {
+    color: white;
+    display: block !important;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .main-img-container button {
+    display: none;
+  }
+}

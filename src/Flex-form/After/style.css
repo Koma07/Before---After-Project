@@ -1,0 +1,86 @@
+html {
+  background-color: #121212;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  min-width: 370px;
+  max-height: auto;
+  min-height: 97vh;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #303030;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+input {
+  border: none;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #303030;
+  border-top: 1px solid green;
+  border-radius: 24px;
+  color: #ffff;
+}
+
+input:last-child {
+  border-top: none;
+  border-bottom: 1px solid green;
+  color: rgb(212, 212, 212);
+}
+
+textarea {
+  border: none;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #303030;
+  border-top: 1px solid green;
+  resize: none;
+  border-radius: 24px;
+}
+
+input::placeholder {
+  color: rgb(212, 212, 212);
+}
+
+input[type="submit"]:hover {
+  background-color: #1d1d1d;
+}
+
+input[type="text"]:focus {
+  background-color: #000000;
+  color: white;
+}
+
+input[type="submit"]:focus {
+  background-color: #474747;
+}
+
+textarea::placeholder {
+  color: rgb(212, 212, 212);
+}
+
+textarea:focus {
+  background-color: #000000;
+  color: white;
+}
+
+.img-container {
+  margin: 1rem;
+  width: 250px;
+  height: auto;
+}
+
+.img-container img {
+  width: 100%;
+}
