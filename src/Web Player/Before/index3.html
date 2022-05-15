@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--METODOLOGIO BEM
+
+BLOCK
+ELEMENT
+MODIFIER
+
+.contenedor-principal (bloque)
+.contenedor-principal__img (elemento __)
+.contenedor-principal--imgBig (Modificador --)
+
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta lang="es" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/better.jpg" />
+    <link rel="stylesheet" type="text/css" href="styles1.css" />
+    <title>Web</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__arriba">
+        <h1 class="header__titulo header--color">Lista de reproduccion</h1>
+      </div>
+    </header>
+    <nav class="barra">
+      <ul class="barra__ul">
+        <a href="" class="links">
+          <li class="barra__li barra__li2">Inicio</li>
+        </a>
+        <a href="" class="links">
+          <li class="barra__li barra__li2">Amigos</li>
+        </a>
+        <a href="" class="links">
+          <li class="barra__li">Buscar</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="contenedor">
+      <div class="main">
+        <div class="song1">
+          <img
+            class="contenedor__img-1"
+            src="Imgs/remix.jpg"
+            alt="Perfil 1"
+            title="Foto de perfil 1"
+            width="200px"
+          />
+          <span class="jeremy music--text">Jeremy Zucker</span>
+          <audio
+            class="control--style"
+            src="better.mp3"
+            controls
+            controlsList="nodownload"
+          ></audio>
+        </div>
+        <div class="song2">
+          <img
+            class="contenedor__img-2"
+            src="Imgs/rad.jpg"
+            alt="Perfil 2"
+            title="Foto de perfil"
+            width="200px"
+          />
+          <span class="radwimps music--text">RADWIMPS</span>
+          <audio class="control--style" src="RADWIMPS.mp3" controls=""></audio>
+        </div>
+        <div class="song3">
+          <img
+            class="contenedor__img-3"
+            src="Imgs/remix.jpg"
+            alt="Perfil 3"
+            title="Foto de perfil 3"
+            width="200px"
+          />
+          <span class="jeremy2 music--text">Better off alone</span>
+          <audio
+            class="control--style"
+            src="/1 test/better.mp3"
+            controls
+          ></audio>
+        </div>
+      </div>
+
+      <div class="fix"></div>
+      <footer class="footer">
+        <div>Todos los derechos reservados - 2020</div>
+      </footer>
+    </div>
+  </body>
+</html>

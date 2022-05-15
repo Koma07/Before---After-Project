@@ -1,0 +1,58 @@
+a{
+
+    color: rgb(139, 87, 223);;
+}
+
+
+.main-container{
+    display: flex;
+
+}
+
+.Caja-2{
+    background-color: rgb(80, 79, 79);
+    width: 100%;
+}
+
+.nav-link{
+    display: inline;
+    padding: 20px;
+    border-radius: 32px;
+}
+
+.nav-menu{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 320px;
+    height: 100vh;
+    border-right: 1px solid grey;
+    padding: 20px;
+
+}
+
+.blanco{
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-link:hover{
+    background-color: rgba(121, 75, 196, 0.096);
+    color: rgb(121, 75, 196);
+}
+
+.nav-item{
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding: 15px 30px;
+
+}
+
+
+
+
+
+

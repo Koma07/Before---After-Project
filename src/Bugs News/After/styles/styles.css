@@ -1,0 +1,147 @@
+:root {
+  --clr-1: rgb(85, 26, 139);
+  --clr-2: rgb(33, 43, 56);
+  --clr-3: rgb(72, 91, 119);
+  --clr-4: rgb(90, 255, 231);
+  --clr-5: rgb(114, 110, 255);
+  --clr-6: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--clr-2);
+}
+header {
+  color: white;
+  background-color: var(--clr-5);
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+.img-container {
+  height: auto;
+  margin: 10px;
+  flex-basis: 300px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.main-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title-container span {
+  font-size: 3rem !important;
+}
+
+.main-title-container h1 {
+  display: inline;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+header h2 {
+  font-weight: 100;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  white-space: nowrap;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid black;
+  background-color: var(--clr-4);
+  overflow: hidden;
+}
+
+.nav-bar li {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.nav-bar li a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  height: 100%;
+  padding: 10px;
+  color: var(--clr-6);
+  background-color: var(--clr-5);
+  border-radius: 34px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 570px;
+  justify-items: center;
+}
+
+section aside {
+  margin: auto 0;
+}
+
+.article {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.article,
+aside {
+  width: 90%;
+  background-color: var(--clr-3);
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+}
+
+aside ul {
+  padding: 10px;
+}
+aside ul li a {
+  font-size: 1.3rem;
+  color: white;
+}
+
+footer {
+  height: 20px;
+  padding: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  background-color: var(--clr-3);
+}
+
+@media (max-width: 920px) {
+  header h2 {
+    margin-top: 0;
+  }
+  .nav-bar li a {
+    font-size: 1.1rem;
+  }
+  section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 250px;
+  }
+
+  .article {
+    margin: 10px 0;
+  }
+
+  section aside {
+    margin: 10px 0;
+  }
+}

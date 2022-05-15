@@ -1,0 +1,120 @@
+body {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  grid-template-rows: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  border-right: 1px solid rgb(47, 51, 54);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav {
+  display: grid;
+  grid-template-rows: 80vh 20vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.header-options img {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.header-options li a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 5px 25px;
+  padding: 8px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 24px;
+}
+
+.header-options li a:hover {
+  background-color: rgba(255, 255, 255, 0.096);
+}
+
+.header-options li:first-child {
+  margin: 0 10px;
+}
+
+.header-options li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+}
+
+.tweet-btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  width: 240px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 32px;
+  background-color: rgb(29, 155, 240);
+  border: none;
+}
+
+.tweet-btn:hover {
+  cursor: pointer;
+  background-color: rgb(26, 142, 219);
+}
+
+a span {
+  margin: 0 10px;
+}
+
+.account-container {
+  width: 230px;
+  height: 50px;
+  margin: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 34px;
+}
+
+.account-container div span:nth-child(1) {
+  font-weight: bold;
+  display: block;
+}
+.account-container div span:nth-child(2) {
+  color: rgb(105, 105, 105);
+  display: block;
+}
+.account-container:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+.account-container img {
+  display: inline;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

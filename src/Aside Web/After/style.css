@@ -1,0 +1,135 @@
+/*Determine the font family of the site*/
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Applies the width and height of the main container of the site, giving to them a black border to visualise, and center the main conten to the screen*/
+#container {
+  min-height: 100vh;
+  margin: 0;
+}
+/*Gives to the header background a color height and width*/
+header {
+  background: rgb(151, 151, 151);
+  height: 100px;
+  width: 100%;
+}
+/* Aling the title text to the center of his block, change the font color, adds a border to the text and erase margin and padding of the text.*/
+#title-site {
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(105, 105, 105);
+  padding: 15px 0;
+}
+
+/*Erase margin of the tag to avoid a blank space between the ul and the header*/
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0;
+  margin: 0;
+}
+/*Gives style to the nav list*/
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  background-color: rgb(63, 63, 63);
+  width: 100px;
+  text-align: center;
+  margin: 0;
+}
+/*Style to the nav list when the cursor is over them*/
+nav ul li:hover {
+  background-color: rgb(177, 177, 177);
+  text-decoration: none;
+}
+
+/*Gives style to the link text*/
+nav ul li a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*Avoid stack blocks*/
+.fix {
+  clear: both;
+}
+/* Gives style to the main section of news*/
+#news {
+  background: green;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  max-height: 1900px;
+  margin: 0;
+}
+/*Modifies the title of the news*/
+#news h2 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  background-color: rgb(2, 83, 2);
+}
+/*Modifies the paragraph of the news*/
+#news p {
+  text-align: justify;
+  background-color: greenyellow;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+/*Gives style to the lateral section of the page*/
+aside {
+  background-color: orange;
+  min-height: 300px;
+  padding: 0;
+}
+/*Modifies the title of the aside section*/
+aside h2 {
+  background-color: rgb(184, 123, 10);
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+aside div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+/*Modifies the footer*/
+footer {
+  background-color: black;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+/*Modifies the img, insert on the last news*/
+img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    display: block;
+  }
+}
