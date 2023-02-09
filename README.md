@@ -78,7 +78,7 @@ This was one of the first web pages I did. Saw it on a YouTube video the guy was
 - Before **10/27/20**
   ![AsideWebBefore](src/Aside%20Web/Before/Before.png)
 
-- After **04/09/22**
+- After **09/04/22**
   ![AsideWebAfter](src/Aside%20Web/After/After.png)
 
 ---
@@ -87,8 +87,19 @@ This was one of the first web pages I did. Saw it on a YouTube video the guy was
 
 This is a Webstie I did mixing a design I saw, with my favorite writer, Brandon Sanderson. Very simplistic, but this was one of the first designs I did by my self.
 
-- Before **14/09/20**
+- Before **09/14/20**
   ![BrandonWebBefore](src/Brandon%20Web/Before/Before.png)
 
-- After **15/05/22**
+- After **05/15/22**
   ![BrandonWebAfter](src/Brandon%20Web/After/After.png)
+
+---
+
+### Business Card
+
+This is landing web page I made as a challenge for myself. Saw this on a web page where you can find differents examples of web pages, and you tried to duplicate them, to practice your skill with HTML & CSS.
+
+I also practice and came to understand some of the use of SVG.
+
+- Finished on **02/08/23**
+  ![BusinessCardWeb](src/Business%20Card/3.png)

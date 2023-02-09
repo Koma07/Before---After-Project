@@ -3,7 +3,7 @@ body {
   letter-spacing: 1px;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  background-image: url("/Business Card/img/Group 5.svg");
+  background-image: url("/src/Business Card/img/Group 5.svg");
   background-size: auto auto; /*This property allows to cover the entire site with the background-image*/
 }
 
