@@ -1,0 +1,124 @@
+:root {
+  --clr-1: #fff;
+  --clr-2: #fafafa;
+  --clr-3: #00000029;
+  --clr-4: #598464;
+  --clr-5: #def0d8;
+  --clr-6: #387546;
+  --clr-7: #383833;
+  --clr-8: #598463;
+  --clr-9: #b2c9a3;
+  --clr-10: #f19a33;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--clr-3);
+}
+h1 {
+  display: block !important;
+}
+
+span {
+  display: block !important;
+}
+
+.style-btn {
+  width: 150px;
+  padding: 10px;
+  color: var(--clr-1);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-1 {
+  margin-top: 20px;
+  background-color: var(--clr-10);
+}
+.btn-2 {
+  background-color: var(--clr-6);
+}
+
+/* 
+    Nav styles
+
+*/
+
+.nav-menu-container {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--clr-1);
+}
+
+.nav-menu-container__logo {
+  margin-left: 20px;
+  margin-right: auto;
+  width: 200px;
+}
+
+.menu-links {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--clr-7);
+}
+
+.nav-margin {
+  margin-right: 70px;
+}
+
+/* 
+    Home section styles
+
+*/
+
+#home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 750px;
+  border: 1px solid #000;
+}
+.home__text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url("/src/Wrapped Green/imgs/background_picture2.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: top 560px left -10px;
+  overflow: visible;
+}
+
+.home__text {
+  margin: auto auto;
+}
+
+.home__text-container span {
+  width: 320px;
+}
+
+.home__img-container {
+  background-image: url("/src/Wrapped Green/imgs/figure-1.svg");
+  background-repeat: no-repeat;
+  background-position: top -40px left 10px;
+  background-size: 780px;
+}
+
+.home__main-text {
+  width: 450px;
+  font-size: 3.4rem;
+  font-weight: 900;
+  color: var(--clr-7);
+  margin: 35px 0;
+}
