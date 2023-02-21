@@ -33,6 +33,13 @@
 }
 
 @media only screen and (max-width: 1050px) {
+  html {
+    overflow-x: hidden;
+  }
+  body > path:nth-child(1) {
+    display: none;
+  }
+
   /* 
         HOME MOBILE STYLES
     
@@ -193,10 +200,10 @@
     position: relative;
     left: -20%;
     width: 140%;
-    height: 355px;
+    height: 285px;
     background-color: var(--clr-4);
     background-repeat: no-repeat;
-    border-radius: 200% 200% 0px 0px;
+    border-radius: 90% 90% 0px 0px;
     background-size: cover;
   }
 
@@ -213,5 +220,6 @@
 
   .food__rss-container {
     margin-top: 30px;
+    bottom: 40px;
   }
 }
