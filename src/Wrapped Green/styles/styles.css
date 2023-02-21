@@ -306,10 +306,17 @@ span {
   font-weight: 500;
 }
 
+.footer__menu-links span {
+  cursor: pointer;
+}
+
 .food__rss-container {
   position: relative;
   bottom: 60px;
   display: flex;
   width: 250px;
   justify-content: space-between;
+}
+.food__rss-container img {
+  cursor: pointer;
 }
