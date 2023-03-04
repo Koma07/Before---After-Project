@@ -103,3 +103,25 @@ I also practice and came to understand some of the use of SVG.
 
 - Finished on **02/08/23**
   ![BusinessCardWeb](src/Business%20Card/3.png)
+
+---
+
+### Wrapped Green
+
+This is a web page I made to again practice HTML & CSS, using BEM on the CSS to get a better control on the components classes.
+
+I also used JavaScript to make a menu for mobile devices.
+
+- Finished on **02/21/23**
+<div style='display: flex; justify-content: center'>
+
+| <img src='src/Wrapped%20Green/imgs/Screenshot_12.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_13.png' width= '300px'> |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| <img src='src/Wrapped%20Green/imgs/Screenshot_14.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_16.png' width= '300px'> |
+| <img src='src/Wrapped%20Green/imgs/Screenshot_15.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_17.png' width= '300px'> |
+| <img src='src/Wrapped%20Green/imgs/Screenshot_18.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_19.png' width= '300px'> |
+| <img src='src/Wrapped%20Green/imgs/Screenshot_20.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_21.png' width= '300px'> |
+| <img src='src/Wrapped%20Green/imgs/Screenshot_22.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_23.png' width= '300px'> |
+| <img src='src/Wrapped%20Green/imgs/Screenshot_24.png' width= '300px'> | <img src='src/Wrapped%20Green/imgs/Screenshot_25.png' width= '300px'> |
+
+</div>

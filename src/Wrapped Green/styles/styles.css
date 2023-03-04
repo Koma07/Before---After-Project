@@ -284,7 +284,7 @@ span {
   align-items: center;
   justify-content: space-between;
   background-color: var(--clr-4);
-  border-radius: 90% 90% 0% 0%;
+  border-radius: 100% 100% 0% 0%;
 }
 
 .footer__logo-container {
